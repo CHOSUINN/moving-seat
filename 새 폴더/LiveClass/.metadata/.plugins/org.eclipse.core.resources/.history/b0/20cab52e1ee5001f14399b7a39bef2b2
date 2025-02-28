@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "userId": 101,
+    "balance": 5000,
+    "createdAt": "2024-02-07T12:00:00",
+    "modifiedAt": "2024-02-07T12:30:00",
+    "isDeleted": false
+  },
+  {
+    "id": 2,
+    "userId": 102,
+    "balance": 15000,
+    "createdAt": "2024-02-06T09:15:00",
+    "modifiedAt": "2024-02-07T10:45:00",
+    "isDeleted": false
+  },
+  {
+    "id": 3,
+    "userId": 103,
+    "balance": 2000,
+    "createdAt": "2024-02-05T14:20:00",
+    "modifiedAt": "2024-02-06T15:00:00",
+    "isDeleted": true
+  },
+  {
+    "id": 4,
+    "userId": 104,
+    "balance": 7000,
+    "createdAt": "2024-02-07T08:00:00",
+    "modifiedAt": "2024-02-07T09:00:00",
+    "isDeleted": false
+  },
+  {
+    "id": 5,
+    "userId": 105,
+    "balance": 12000,
+    "createdAt": "2024-02-04T17:45:00",
+    "modifiedAt": "2024-02-06T18:10:00",
+    "isDeleted": false
+  },
+  {
+    "id": 6,
+    "userId": 106,
+    "balance": 3000,
+    "createdAt": "2024-02-02T10:30:00",
+    "modifiedAt": "2024-02-03T11:15:00",
+    "isDeleted": true
+  },
+  {
+    "id": 7,
+    "userId": 107,
+    "balance": 18000,
+    "createdAt": "2024-02-05T15:10:00",
+    "modifiedAt": "2024-02-06T16:45:00",
+    "isDeleted": false
+  },
+  {
+    "id": 8,
+    "userId": 108,
+    "balance": 22000,
+    "createdAt": "2024-02-06T13:20:00",
+    "modifiedAt": "2024-02-07T14:30:00",
+    "isDeleted": false
+  },
+  {
+    "id": 9,
+    "userId": 109,
+    "balance": 6000,
+    "createdAt": "2024-02-03T07:55:00",
+    "modifiedAt": "2024-02-04T08:40:00",
+    "isDeleted": true
+  },
+  {
+    "id": 10,
+    "userId": 110,
+    "balance": 9000,
+    "createdAt": "2024-02-07T11:45:00",
+    "modifiedAt": "2024-02-07T12:20:00",
+    "isDeleted": false
+  }
+]

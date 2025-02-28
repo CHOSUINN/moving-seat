@@ -1,0 +1,13 @@
+package test02_Gson;
+
+public class GsonTest01 {
+
+	// Gson 추가하는 방법 2가지
+	// 1. 직접추가(jav)
+	// 2. maven 추가
+	
+	public static void main(String[] args) {
+
+		Gson gson = new Gson();
+	}
+}

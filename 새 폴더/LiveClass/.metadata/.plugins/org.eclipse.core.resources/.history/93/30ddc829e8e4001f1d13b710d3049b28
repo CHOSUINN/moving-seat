@@ -1,0 +1,13 @@
+import java.util.*;
+
+public class StudentManager {
+	
+	private List<Student> students = new ArrayList<Student>();
+	private static StudentManager = new StudentManager();
+	
+	private StudentManager() {
+		
+	}
+	
+
+}

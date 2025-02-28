@@ -1,0 +1,28 @@
+import java.util.*;
+
+public class StudentTest {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+	
+		StudentManager sm = StudentManager.getInstance();
+		
+		int sel;
+		do {
+			System.out.println("학생 관리 프로그램 (번호 입력");
+			System.out.println("1. 학생 추가");
+			System.out.println("2. 학생 전체조회");
+			System.out.println("3. 학생 검색(이름)");
+			System.out.println("4. 전공 변경");
+			System.out.println("5. 학생 삭제");
+			System.out.println("0. 종료");
+			sel = sc.nextInt();
+			
+		} while(sel != 0);
+		
+		
+		
+		sc.close();	
+	}
+}

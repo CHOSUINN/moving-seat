@@ -1,0 +1,28 @@
+import java.util.*;
+
+public class StudentManager {
+	
+	private List<Student> students = new ArrayList<Student>();
+	private static StudentManager manager;
+	
+	private StudentManager() {
+		
+	}
+	
+	public static StudentManager getInstance() {
+		if (manager == null)
+			manager = new StudentManager();
+		return manager;
+	}
+	
+	//삽입
+	
+	//조회
+	
+	//수정
+	
+	//삭제
+	
+	
+
+}

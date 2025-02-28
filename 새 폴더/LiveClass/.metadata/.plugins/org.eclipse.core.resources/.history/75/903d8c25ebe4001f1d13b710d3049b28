@@ -1,0 +1,15 @@
+
+public class StudentNotFoundException extends RuntimeException {
+	
+	private String name;
+	
+	public StudentNotFoundException(String name) {
+		super(name + "이라는 사람은 없어요!");
+		this.name = name;
+	}
+	
+	public String getName() {
+		return name;
+	}
+
+}

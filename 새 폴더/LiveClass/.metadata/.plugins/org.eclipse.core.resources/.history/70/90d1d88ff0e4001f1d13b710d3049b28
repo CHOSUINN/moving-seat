@@ -1,0 +1,8 @@
+package test02_Gson;
+
+public class GsonTest01 {
+
+	public static void main(String[] args) {
+		
+	}
+}

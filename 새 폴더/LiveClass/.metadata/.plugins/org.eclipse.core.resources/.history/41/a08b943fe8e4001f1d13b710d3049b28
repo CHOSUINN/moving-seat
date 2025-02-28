@@ -1,0 +1,18 @@
+import java.util.*;
+
+public class StudentManager {
+	
+	private List<Student> students = new ArrayList<Student>();
+	private static StudentManager manager = new StudentManager();
+	
+	private StudentManager() {
+		
+	}
+	
+	public static getInstance() {
+		if (manager == null)
+			manager = new StudentManager();
+	}
+	
+
+}

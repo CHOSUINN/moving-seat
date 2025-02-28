@@ -1,0 +1,22 @@
+import java.util.*;
+
+public class StudentTest {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+	
+		StudentManager sm = StudentManager.getInstance();
+		
+		int sel;
+		do {
+			System.out.println("학생 관리 프로그램");
+			sel = sc.nextInt();
+			
+		} while(sel != 0);
+		
+		
+		
+		sc.close();	
+	}
+}

@@ -1,0 +1,8 @@
+
+public class StudentNotFoundException extends RuntimeException {
+	
+	public StudentNotFoundException(String name) {
+		super(name + " 그런 사람은 없어요!");
+	}
+
+}

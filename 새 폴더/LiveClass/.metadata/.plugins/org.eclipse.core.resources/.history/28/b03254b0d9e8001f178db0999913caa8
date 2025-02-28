@@ -1,0 +1,19 @@
+
+public class String01_생성 {
+	public static void main(String[] args) {
+		
+		
+		// 스트링 풀에 생성된 문자열은 값이 같을 경우 같은 값을 참조하게 됨.
+		String str1 = "Hello";
+		String str2 = "Hello";
+		
+		
+		System.out.println(str1 == str2);
+		
+		String str3 = new String("Hello");
+		System.out.println(str1 == str3);
+		
+		// 문자열은 불변성을 가지고 있다.
+		
+	}
+}

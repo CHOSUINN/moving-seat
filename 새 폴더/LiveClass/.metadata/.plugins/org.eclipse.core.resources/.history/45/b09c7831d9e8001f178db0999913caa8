@@ -1,0 +1,10 @@
+
+public class String01_생성 {
+	public static void main(String[] args) {
+		
+		String str1 = "Hello";
+		Stirng str2 = "Hello";
+		
+		System.out.println();
+	}
+}

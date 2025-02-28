@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Users\SSAFY\Desktop\일타싸피\정의란무엇인가\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+4213095196.index
+3009054434.index

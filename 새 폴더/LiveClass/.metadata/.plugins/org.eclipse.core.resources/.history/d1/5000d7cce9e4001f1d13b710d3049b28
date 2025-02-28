@@ -1,0 +1,53 @@
+import java.util.*;
+
+public class StudentManager {
+	
+	private List<Student> students = new ArrayList<Student>();
+	private static StudentManager manager;
+	
+	private StudentManager() {
+		
+	}
+	
+	public static StudentManager getInstance() {
+		if (manager == null)
+			manager = new StudentManager();
+		return manager;
+	}
+	
+	//삽입C
+	public void addStudent(Student student) {
+		students.add(student);
+		
+		// 내가 따로 조건을 걸었다면 true/false
+		
+		
+	}
+	
+	//조회R
+	// 1. 전체목록 조회
+	public List<Student> getAllStudent() {
+		return students;
+	}
+	
+	// 2. 이름 검색. 
+	public List<Student> getStudentName(String name) throws NoSuchNameException {
+		List<Student> nameStudents = new ArrayList<>();
+		for (Student student : students) {
+			if (student.getName().contains(name))
+				nameStudents.add(student);
+		}
+		
+		if (nameStudents.size() == 0)
+			throw new NoSuchNameException;
+			
+	}
+	
+	
+	
+	//수정U
+	
+	//삭제D
+	
+
+}
